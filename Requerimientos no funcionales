@@ -1,0 +1,12 @@
+Requerimientos no funcionales.
+
+El sistema se desarrollará a través de una web con estructura HTML, semántica y estilos CSS. 
+
+Base de datos
+El sistema será desarrollado para que interactúe con un motor de base de datos. Para este sistema utilizaremos MySQL como motor de base de datos 
+
+ Restricciones de funcionamiento.
+
+Para el acceso al sistema se contemplará dos tipos de usuarios. El administrador tendrá acceso a todas las funcionalidades, usuarios que solo tendrá acceso limitado al sistema según las indicaciones del administrador.
+
+ Requisitos de rendimiento
