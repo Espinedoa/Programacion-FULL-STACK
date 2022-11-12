@@ -248,3 +248,14 @@
 			._parallax();
 
 })(jQuery);
+
+// agregado para validar dni 
+
+const dni = document.getElementById("dni");
+let validar = () => {
+  if (dni.value > 99999999 || dni.value < 1000000) {
+    alert("ingrese un formato correcto");
+  }
+};
+
+dni.addEventListener("blur", validar);
