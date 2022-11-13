@@ -20,6 +20,19 @@
 #seccion1 {
   height: 250px;
 }
+#seccion2 {
+  height: 450px;
+}
+#login {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.botonLogin {
+  margin-left: 70px;
+  padding: auto;
+  align-items: center;
+  border-bottom: 30%;
+}
 
 html,
 body,

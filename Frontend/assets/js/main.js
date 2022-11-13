@@ -223,5 +223,4 @@ let validar = () => {
     );
   }
 };
-
 dni.addEventListener("blur", validar);
