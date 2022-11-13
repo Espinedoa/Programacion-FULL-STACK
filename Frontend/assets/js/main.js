@@ -213,6 +213,11 @@
   $banner._parallax();
 })(jQuery);
 
+const expresiones = {
+  usuario: /^[0-9\_\-]{7,8}$/, // numeros
+  password: /^.{4,12}$/, // 4 a 12 digitos.
+};
+
 // agregado para validar dni
 
 const dni = document.getElementById("dni");
@@ -223,4 +228,4 @@ let validar = () => {
     );
   }
 };
-dni.addEventListener("blur", validar);
+//dni.addEventListener("blur", validar);
